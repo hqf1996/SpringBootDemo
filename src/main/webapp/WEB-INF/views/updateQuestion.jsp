@@ -7,11 +7,11 @@
 </head>
 <body>
 <form action="/update" method="post">
-    id:<input type="text" id="id" value="${question.id}" readonly />
-    question:<input type="text" question="question" value="${question.question}" />
-    choose:<input type="text" choose="choose" value="${question.choose}" />
-    type:<input type="text" type="type" value="${question.type}" />
-    answer:<input type="text" answer="answer" value="${question.answer}" />
+    id:<input type="text" id="id" value="${question.id}" name="id" readonly />
+    question:<input type="text" id="question" value="${question.question}" name="question"/>
+    choose:<input type="text" id="choose" value="${question.choose}" name="choose"/>
+    type:<input type="text" id="type" value="${question.type}" name="type"/>
+    answer:<input type="text" id="answer" value="${question.answer}" name="answer"/>
     <input type="submit" value="submit" />
 </form>
 </body>

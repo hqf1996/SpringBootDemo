@@ -7,10 +7,10 @@
 </head>
 <body>
 <form action="/add" method="post">
-          question:<input type="text" question="question" />
-          choose:<input type="text" choose="choose" />
-          type:<input type="text" type="type" />
-          answer:<input type="text" answer="answer" />
+          question:<input type="text" name="question" />
+          choose:<input type="text" name="choose" />
+          type:<input type="text" name="type" />
+          answer:<input type="text" name="answer" />
           <input type="submit" value="submit" />
        </form>
 </body>

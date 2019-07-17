@@ -42,7 +42,7 @@ public class QuestionController {
     public String toUpdate(Model model, int id) {
         Question question = questionService.findById(id);
         model.addAttribute("question", question);
-        return "/updateQuestion";
+        return "updateQuestion";
     }
 
     @RequestMapping("/update")
